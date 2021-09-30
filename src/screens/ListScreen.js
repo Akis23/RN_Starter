@@ -15,7 +15,11 @@ const ListScreen = () => {
         <FlatList
             data = {friends}
             renderItem = {({item}) =>{
-                return <Text style={styles.TextStyle}>{item.name} - Age {item.age}</Text>;
+                return (
+                <Text style={styles.TextStyle}>
+                    {item.name} - Age {item.age}
+                </Text>
+                );
             }}
         />
 
