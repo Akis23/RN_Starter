@@ -11,6 +11,7 @@ import ReducerScreen from "./src/screens/ReducerScreen";
 import TextScreen from "./src/screens/TextSceen";
 import passwordScreen from "./src/screens/PasswordScreen";
 import BoxScreen from "./src/screens/BoxScreen";
+import StyleScreen from "./src/screens/StyleScreen";
 
 const navigator = createStackNavigator(
   {
@@ -24,7 +25,8 @@ const navigator = createStackNavigator(
     Reducer: ReducerScreen,
     Text: TextScreen,
     Password: passwordScreen,
-    Box: BoxScreen
+    Box: BoxScreen,
+    Style: StyleScreen
   },
   {
     initialRouteName: "Home",
