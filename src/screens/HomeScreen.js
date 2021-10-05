@@ -43,6 +43,10 @@ const HomeScreen = (props) => {
         title="Password"
         onPress={() => props.navigation.navigate('Password')}
       />
+      <Button 
+        title="Box"
+        onPress={() => props.navigation.navigate('Box')}
+      />
     </View>
   );
 };
