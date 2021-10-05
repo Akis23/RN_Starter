@@ -39,6 +39,10 @@ const HomeScreen = (props) => {
         title="TextScreen"
         onPress={() => props.navigation.navigate('Text')}
       />
+      <Button 
+        title="Password"
+        onPress={() => props.navigation.navigate('Password')}
+      />
     </View>
   );
 };
